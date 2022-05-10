@@ -1,9 +1,12 @@
 {
   "name": "project",
   "version": "1.0.0",
+  "homepage": "https://ur-star.github.io/CryptoSender",
   "description": "none",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "none"
   },
   "repository": {
